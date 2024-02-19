@@ -1,0 +1,23 @@
+.header-content__title {
+  font-size: 5.4rem;
+  margin-bottom: 2rem;
+}
+
+.header-content__subtitle {
+  font-size: 5.4rem;
+  max-width: 54rem;
+}
+
+.header-content__social-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+
+  margin-top: 0.5rem;
+  border-top: 0.1px solid black;
+  max-width: 40rem;
+}
+
+.header-content__social-icons-margin {
+  margin-top: 0.5rem;
+}

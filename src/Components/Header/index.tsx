@@ -1,6 +1,5 @@
-import { FaLinkedin, FaGithubSquare, FaWhatsappSquare, FaFileAlt, FaReact, FaCss3 } from 'react-icons/fa';
-import { BiLogoJavascript, BiLogoTypescript } from "react-icons/bi";
-import { MdEmail } from "react-icons/md";
+import { FaLinkedin, FaGithubSquare, FaWhatsappSquare } from 'react-icons/fa';
+import { BsArrowDownSquareFill } from "react-icons/bs";
 
 import React from 'react'
 import "./index.css";
@@ -8,61 +7,31 @@ import "./index.css";
 const Header: React.FC = () => {
 
   return (
-    <header>
-      <h1>João Rocha</h1>
-      <h2>Desenvolvedor React Front-end</h2>
+    <header className='header-content'>
+      <h1 className='header-content__title'>João Rocha</h1>
+      <h2 className='header-content__subtitle'>Desenvolvedor React Front-end</h2>
 
-      <div>
-        <div>
+      <div className='header-content__social-icons'>
+        <div className='header-content__social-icons-margin'>
           <FaLinkedin
             size={35}
           />
         </div>
-        <div>
+        <div className='header-content__social-icons-margin'>
           <FaGithubSquare
             size={35}
           />
         </div>
-        <div>
+        <div className='header-content__social-icons-margin'>
           <FaWhatsappSquare
             size={35}
           />
         </div>
-        <div>
-          <MdEmail
-            size={35}
+        <div className='header-content__social-icons-margin'>
+          <BsArrowDownSquareFill
+            size={32}
           />
         </div>
-        <div>
-          <FaFileAlt
-            size={35}
-          />
-        </div>
-      </div>
-
-      <legend>Principais Tecnologias:</legend>
-      <div>
-        <div>
-          <BiLogoJavascript
-            size={35}
-          />
-        </div>
-        <div>
-          <BiLogoTypescript
-            size={35}
-          />
-        </div>
-        <div>
-          <FaReact
-            size={35}
-          />
-        </div>
-        <div>
-          <FaCss3
-            size={35}
-          />
-        </div>
-
       </div>
     </header>
   );
