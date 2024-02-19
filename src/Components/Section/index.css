@@ -1,0 +1,46 @@
+ul {
+  list-style-type: none;
+  margin-top: -1.5rem;
+}
+
+.section-content__title__about-me {
+  font-size: 2.4rem;
+}
+
+.section-content__about-me__paragraph {
+  margin-top: 2rem;
+  max-width: 42.4rem;
+}
+.section-content__title-education {
+  font-size: 2.4rem;
+  margin: 2rem 0;
+}
+
+.section-content__education__legend {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.section-content__education__institution,
+.section-content__education__conclusion {
+  margin-bottom: 0.5rem
+}
+
+summary {
+  margin-bottom: 2rem;
+}
+
+.section-content__details {
+  margin-bottom: 2rem;
+}
+
+.section-content__details__summary-title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+li {
+  margin-bottom: 0.3rem;
+}
