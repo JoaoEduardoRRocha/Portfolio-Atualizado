@@ -28,7 +28,7 @@ const Section: React.FC = () => {
 
       <div className="section-content__education">
         <p className="section-content__education__legend">
-          Trilha Explorer - Programa de Aprendizado Progressivo da Rocketseat
+          Trilha Explorer - Desenvolvimento Web Fullstack
         </p>
         <p className="section-content__education__institution">
           Instituição: Rocketseat
@@ -41,7 +41,7 @@ const Section: React.FC = () => {
           <summary>Saiba Mais</summary>
           <ul>
             <legend className='section-content__details__summary-title'>Tópicos Abordados:</legend>
-            <li>- Fundamentos de programação e lógica de programação</li>
+            <li>- Fundamentos de lógica de programação</li>
             <li>- Desenvolvimento web com HTML, CSS e JavaScript</li>
             <li>- Introdução ao ReactJS e desenvolvimento de interfaces web interativas</li>
             <li>- Introdução ao Node.js e construção de APIs RESTful</li>

@@ -1,7 +1,10 @@
 ul {
   list-style-type: none;
   margin-top: -1.5rem;
+
+  padding-bottom: 1rem;
 }
+
 
 .section-content__title__about-me {
   font-size: 2.4rem;
@@ -16,6 +19,18 @@ ul {
   margin: 2rem 0;
 }
 
+.section-content__education {
+  background-color: var(--bg--secondary);
+
+  padding: 1rem 1rem 0 1rem;
+
+  border-radius: 1rem;
+  -webkit-box-shadow: -1px 3px 16px 6px rgba(0,0,0,0.29);
+  -moz-box-shadow: -1px 3px 16px 6px rgba(0,0,0,0.29);
+  box-shadow: -1px 3px 16px 6px rgba(0,0,0,0.29);
+
+}
+
 .section-content__education__legend {
   font-size: 2rem;
   font-weight: 500;
@@ -28,7 +43,7 @@ ul {
 }
 
 summary {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .section-content__details {
@@ -39,6 +54,7 @@ summary {
   font-size: 2rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
+  padding-top: 1rem;
 }
 
 li {
