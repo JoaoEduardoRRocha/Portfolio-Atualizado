@@ -50,18 +50,21 @@ const Project: React.FC = () => {
         <div className='projects-content__btn-container'>
           <div className='projects-content__btn-github'>
             <FaGithub
-              size={35}
+              size={25}
             />
+            Github
           </div>
           <div className='projects-content__btn-deploy'>
             <MdArrowOutward
-              size={35}
+              size={25}
             />
+            Deploy
           </div>
           <div className='projects-content__btn-youtube'>
             <FaYoutube
-              size={35}
+              size={25}
             />
+            Youtube
           </div>
         </div>
       </div>
@@ -98,13 +101,15 @@ const Project: React.FC = () => {
         <div className='projects-content__btn-container'>
           <div className='projects-content__btn-github'>
             <FaGithub
-              size={35}
+              size={25}
             />
+            Github
           </div>
           <div className='projects-content__btn-deploy'>
             <MdArrowOutward
-              size={35}
+              size={25}
             />
+            Deploy
           </div>
         </div>
       </div>

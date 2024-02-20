@@ -30,12 +30,12 @@
 }
 
 .projects-content__img-project {
-  width: 10rem;
+  width: 7.5rem;
   border-radius: 50%;
+}
 
-  -webkit-box-shadow: 1px 8px 25px -5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 1px 8px 25px -5px rgba(0,0,0,0.75);
-  box-shadow: 1px 8px 25px -5px rgba(0,0,0,0.75);
+.projects-content__title {
+  font-size: 2.4rem;
 }
 
 .projects-content__text {
@@ -51,7 +51,7 @@
 .projects-content__tecnology {
   font-weight: 500;
   text-align: center;
-  margin-bottom: 1rem;
+  margin: 2rem auto;
 }
 
 .projects-content__btn-container {
@@ -67,7 +67,23 @@
 .projects-content__btn-youtube {
   display: flex;
   align-items: center;
-  padding: 0.5rem;
-  border: 0.1rem solid rgb(163, 163, 163);
-  border-radius: 50%;
+  justify-content: center;
+  margin: auto;
+  gap: 1rem;
+
+  padding: 1rem;
+  border-radius: 1rem;
+
+}
+
+.projects-content__btn-github {
+  background-color: rgb(199, 199, 199);
+}
+
+.projects-content__btn-deploy {
+  background-color: rgb(199, 199, 199);
+}
+
+.projects-content__btn-youtube {
+  background-color: rgb(199, 199, 199);
 }

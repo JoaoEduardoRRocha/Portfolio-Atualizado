@@ -19,16 +19,9 @@ ul {
 }
 
 .section-content__education {
-  background-color: var(--bg--secondary);
-
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem 1rem 0 0;
 
   margin-bottom: 4rem;
-
-  border-radius: 1rem;
-  -webkit-box-shadow: -1px 3px 16px 6px rgba(0,0,0,0.29);
-  -moz-box-shadow: -1px 3px 16px 6px rgba(0,0,0,0.29);
-  box-shadow: -1px 3px 16px 6px rgba(0,0,0,0.29);
 }
 
 .section-content__education__legend {
