@@ -84,16 +84,13 @@ const Project: React.FC = () => {
 
         <div className='projects-content__tecnology-icons'>
           <legend className='projects-content__tecnology'>Tecnologias Utilizadas:</legend>
-          <TbApi
-            size={35}
-          />
           <IoLogoJavascript
             size={35}
           />
           <FaReact
             size={35}
           />
-          <SiMongodb
+          <TbApi
             size={35}
           />
         </div>
@@ -106,11 +103,6 @@ const Project: React.FC = () => {
           </div>
           <div className='projects-content__btn-deploy'>
             <MdArrowOutward
-              size={35}
-            />
-          </div>
-          <div className='projects-content__btn-youtube'>
-            <FaYoutube
               size={35}
             />
           </div>
