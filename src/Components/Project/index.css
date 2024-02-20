@@ -73,17 +73,15 @@
 
   padding: 1rem;
   border-radius: 1rem;
-
+  border: solid 1px rgb(160, 160, 160);
+  background-color: var(--bg--primary);
+  transition: transform 0.3s ease;
 }
 
-.projects-content__btn-github {
-  background-color: rgb(199, 199, 199);
-}
-
-.projects-content__btn-deploy {
-  background-color: rgb(199, 199, 199);
-}
-
-.projects-content__btn-youtube {
-  background-color: rgb(199, 199, 199);
+.projects-content__btn-github:hover,
+.projects-content__btn-deploy:hover,
+.projects-content__btn-youtube:hover {
+  cursor: pointer;
+  filter: brightness(0.93);
+  transform: scale(1.03);
 }

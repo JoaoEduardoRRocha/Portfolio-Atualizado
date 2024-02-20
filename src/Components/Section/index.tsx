@@ -43,11 +43,13 @@ const Section: React.FC = () => {
             <legend className='section-content__details__summary-title'>Tópicos Abordados:</legend>
             <li>- Fundamentos de lógica de programação</li>
             <li>- Desenvolvimento web com HTML, CSS e JavaScript</li>
-            <li>- Introdução ao ReactJS e desenvolvimento de interfaces web interativas</li>
-            <li>- Introdução ao Node.js e construção de APIs RESTful</li>
+            <li>- Introdução ao ReactJS</li>
+            <li>- Introdução ao Node.js</li>
+            <li>- Construção de APIs RESTful</li>
+            <li>- Desenvolvimento de interfaces web interativas</li>
             <li>- Banco de dados com MongoDB e Mongoose</li>
             <li>- Versionamento de código com Git e GitHub</li>
-            <li>- Metodologias ágeis e boas práticas de desenvolvimento de software</li>
+            <li>- Metodologias ágeis e boas práticas de desenvolvimento</li>
           </ul>
         </details>
       </div>
