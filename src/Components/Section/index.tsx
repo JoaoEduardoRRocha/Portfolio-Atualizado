@@ -18,7 +18,7 @@ const Section: React.FC = () => {
         <p className="section-content__about-me__paragraph">
           A pandemia trouxe mudanças significativas, e aproveitei a oportunidade
           para direcionar totalmente minha dedicação para a área de desenvolvimento.
-          Atualmente, sou um Desenvolvedor Front-End, especializado nas tecnologias React e TypeScript
+          Atualmente, sou um Desenvolvedor Front-End, especializado nas tecnologias React e TypeScript.
         </p>
       </div>
 

@@ -15,21 +15,25 @@ const Header: React.FC = () => {
         <div className='header-content__social-icons-margin'>
           <FaLinkedin
             size={35}
+            className='linkedin-icon'
           />
         </div>
         <div className='header-content__social-icons-margin'>
           <FaGithubSquare
             size={35}
+            className='github-icon'
           />
         </div>
         <div className='header-content__social-icons-margin'>
           <FaWhatsappSquare
             size={35}
+            className='whatsapp-icon'
           />
         </div>
         <div className='header-content__social-icons-margin'>
           <BsArrowDownSquareFill
             size={32}
+            className='file-icon'
           />
         </div>
       </div>
