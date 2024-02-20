@@ -1,5 +1,6 @@
 .header-content {
-  margin-right: 15rem;
+  position: fixed;
+  margin-right: 60rem;
 }
 
 .header-content__title {
@@ -15,13 +16,13 @@
 .header-content__social-icons {
   display: flex;
   align-items: center;
-  gap: 0.2rem;
+  gap: 0.5rem;
 
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   border-top: 0.1px solid black;
   max-width: 39rem;
 }
 
 .header-content__social-icons-margin {
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
 }
