@@ -26,5 +26,5 @@ a {
 .main-content {
   display: flex;
   justify-content: center;
-  margin: auto;
+  margin: 10rem auto;
 }
