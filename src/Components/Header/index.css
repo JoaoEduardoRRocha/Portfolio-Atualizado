@@ -5,7 +5,7 @@
 
 .header-content__subtitle {
   font-size: 5.4rem;
-  max-width: 54rem;
+  max-width: 39rem;
 }
 
 .header-content__social-icons {
@@ -15,7 +15,7 @@
 
   margin-top: 0.5rem;
   border-top: 0.1px solid black;
-  max-width: 40rem;
+  max-width: 39rem;
 }
 
 .header-content__social-icons-margin {
