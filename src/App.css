@@ -8,6 +8,7 @@
   font-size: 62.5%;
   --color--primary: #111111;
   --bg--primary: #F2F2F2;
+  --bg--secondary: white;
 }
 
 body {

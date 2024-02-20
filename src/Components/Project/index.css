@@ -1,0 +1,73 @@
+.projects-container__title {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 40.8rem;
+
+  margin-bottom: 5rem;
+  padding: 2rem;
+
+  background-color: var(--bg--secondary);
+  border: 0.1rem solid rgb(185, 185, 185);
+  border-radius: 1rem;
+  -webkit-box-shadow: -1px 3px 16px 6px rgba(0,0,0,0.29);
+  -moz-box-shadow: -1px 3px 16px 6px rgba(0,0,0,0.29);
+  box-shadow: -1px 3px 16px 6px rgba(0,0,0,0.29);
+
+}
+
+.projects-content__header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.projects-content__img-project {
+  width: 10rem;
+  border-radius: 50%;
+
+  -webkit-box-shadow: 1px 8px 25px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 8px 25px -5px rgba(0,0,0,0.75);
+  box-shadow: 1px 8px 25px -5px rgba(0,0,0,0.75);
+}
+
+.projects-content__text {
+  max-width: 35rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.projects-content__tecnology-icons {
+  text-align: center;
+}
+
+.projects-content__tecnology {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.projects-content__btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  gap: 1rem;
+}
+
+.projects-content__btn-github,
+.projects-content__btn-deploy,
+.projects-content__btn-youtube {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border: 0.1rem solid rgb(163, 163, 163);
+  border-radius: 50%;
+}
