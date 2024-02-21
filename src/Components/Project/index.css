@@ -23,6 +23,7 @@
 .projects-content__header {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
 
   margin-top: 4rem;
@@ -38,20 +39,62 @@
   font-size: 2.4rem;
 }
 
+.projects-content__subtitle-fullstack {
+  background-color: var(--bg--primary);
+  display: flex;
+  justify-content: center;
+
+  font-size: 1.4rem;
+  font-weight: bold;
+
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+  border: 0.1px solid grey;
+  border-radius: 2rem;
+  max-width: 9rem;
+}
+
+.projects-content__subtitle-frontend {
+  background-color: var(--bg--primary);
+  display: flex;
+  justify-content: center;
+
+  font-size: 1.4rem;
+  font-weight: bold;
+
+  padding: 0.2rem 0.4rem;
+  margin-top: 0.5rem;
+  border: 0.1px solid grey;
+  border-radius: 2rem;
+  max-width: 9rem;
+}
+
 .projects-content__text {
+  display: flex;
   max-width: 35rem;
-  text-align: center;
-  margin-bottom: 1rem;
+  margin: 0 auto 3rem auto;
 }
 
 .projects-content__tecnology-icons {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
 }
 
 .projects-content__tecnology {
   font-weight: 500;
+  font-size: 1.4rem;
   text-align: center;
   margin: 2rem auto;
+}
+
+.projects-content__icons {
+  display: flex;
+  gap: 1rem;
+}
+.icon-color {
+  color: black;
 }
 
 .projects-content__btn-container {
@@ -62,26 +105,37 @@
   gap: 1rem;
 }
 
-.projects-content__btn-github,
-.projects-content__btn-deploy,
-.projects-content__btn-youtube {
+.projects-content__btn-purple-bg {
+  background-color: #E1DCF0;
+}
+
+.projects-content__btn-red-bg {
+  background-color: #FACDD0;
+}
+
+.projects-content__btn-orange-bg {
+background-color: #ffd59e;
+}
+
+.projects-content__btn-purple-bg,
+.projects-content__btn-red-bg,
+.projects-content__btn-orange-bg {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
   gap: 1rem;
 
+  color: black;
   padding: 1rem;
   border-radius: 1rem;
-  border: solid 1px rgb(160, 160, 160);
-  background-color: var(--bg--primary);
   transition: transform 0.3s ease;
 }
 
-.projects-content__btn-github:hover,
-.projects-content__btn-deploy:hover,
-.projects-content__btn-youtube:hover {
+.projects-content__btn-purple-bg:hover,
+.projects-content__btn-red-bg:hover,
+.projects-content__btn-orange-bg:hover {
   cursor: pointer;
-  filter: brightness(0.93);
+  filter: brightness(1.1);
   transform: scale(1.03);
 }
