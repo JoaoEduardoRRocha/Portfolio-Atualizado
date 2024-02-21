@@ -45,7 +45,7 @@ summary {
 }
 
 .section-content__details {
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 
 .section-content__details__summary-title {
@@ -57,4 +57,31 @@ summary {
 
 li {
   margin-bottom: 0.3rem;
+}
+
+@media (max-width: 1000px) {
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    font-size: 1.6rem;
+  }
+
+  .section-content__title-about-me {
+    font-size: 2rem;
+  }
+  
+  .section-content__about-me__paragraph {
+    margin-top: 1rem;
+    max-width: 32rem;
+  }
+  .section-content__title-education {
+    font-size: 2rem;
+    margin: 3rem 0 1rem 0;
+  }
+
+  .section-content__details {
+    margin-bottom: -3rem;
+  }
 }

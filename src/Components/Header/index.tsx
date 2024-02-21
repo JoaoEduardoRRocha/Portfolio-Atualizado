@@ -8,9 +8,10 @@ const Header: React.FC = () => {
 
   return (
     <header className='header-content'>
-      <h1 className='header-content__title'>João Rocha</h1>
-      <h2 className='header-content__subtitle'>Desenvolvedor React Front-end</h2>
-
+      <div className='header-content__title-subtitle'>
+        <h1 className='header-content__title'>João Rocha</h1>
+        <h2 className='header-content__subtitle'>Desenvolvedor React Front-end</h2>
+      </div>
       <div className='header-content__social-icons'>
         <a className='header-content__social-icons-margin'
           href='https://www.linkedin.com/in/joaoedrocha/'

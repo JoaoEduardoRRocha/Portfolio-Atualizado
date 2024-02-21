@@ -28,3 +28,21 @@ a {
   justify-content: center;
   margin: 10rem auto;
 }
+
+@media (max-width: 1000px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 38rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 31rem;
+
+    padding: 1rem;
+  }
+}

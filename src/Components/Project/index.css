@@ -139,3 +139,35 @@ background-color: #ffd59e;
   filter: brightness(1.1);
   transform: scale(1.03);
 }
+
+@media (max-width: 1000px) {
+  .projects-container__title {
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
+
+  .projects-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 34rem;
+  }
+
+  .projects-content__text {
+    display: flex;
+    font-size: 1.5rem;
+    max-width: 22rem;
+    margin: 0 auto 3rem auto;
+  }
+
+  .projects-content__btn-container {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+  }
+
+  .projects-content__btn-purple-bg,
+  .projects-content__btn-red-bg,
+  .projects-content__btn-orange-bg  {
+    width: 100%;
+  }
+}
