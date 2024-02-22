@@ -58,7 +58,7 @@ const Project: React.FC = () => {
 
         <div className='projects-content__btn-container'>
           <a className='projects-content__btn-purple-bg'
-            href='https://github.com/JoaoEduardoRRocha/Impavitta-Rework'
+            href='https://github.com/JoaoEduardoRRocha/food-explorer?tab=readme-ov-file'
             target="_blank"
             rel="noreferrer"
           >
@@ -68,7 +68,7 @@ const Project: React.FC = () => {
             Github
           </a>
           <a className='projects-content__btn-purple-bg'
-            href='https://github.com/JoaoEduardoRRocha/Impavitta-Rework'
+            href='https://food-explorer-opal.vercel.app/'
             target="_blank"
             rel="noreferrer"
           >
@@ -78,7 +78,7 @@ const Project: React.FC = () => {
             Deploy
           </a>
           <a className='projects-content__btn-purple-bg'
-            href='https://github.com/JoaoEduardoRRocha/Impavitta-Rework'
+            href='https://www.youtube.com/channel/UCFBQaJVtTwNIbpqvIoiDfkQ'
             target="_blank"
             rel="noreferrer"
           >
