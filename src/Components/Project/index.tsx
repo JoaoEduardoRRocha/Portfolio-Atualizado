@@ -58,7 +58,7 @@ const Project: React.FC = () => {
 
         <div className='projects-content__btn-container'>
           <a className='projects-content__btn-purple-bg'
-            href='https://github.com/JoaoEduardoRRocha/food-explorer?tab=readme-ov-file'
+            href='https://github.com/JoaoEduardoRRocha/Food-Explorer'
             target="_blank"
             rel="noreferrer"
           >
