@@ -29,7 +29,8 @@ const Project: React.FC = () => {
           </div>
         </div>
         <p className='projects-content__text'>
-          Projeto quase finalizado. Ao acessar o readme.md do projeto, você poderá ver as atividades em andamento e também as futuras atualizações.
+          Projeto que simula uma aplicação real, que contém autenticação de login completa, faz requisições entre backend e frontend, elementos dinâmicos, etc.
+          Para saber mais sobre o projeto, consulte a página do github, o readme contém todas os detalhes do projeto.
         </p>
 
         <div className='projects-content__tecnology-icons'>
