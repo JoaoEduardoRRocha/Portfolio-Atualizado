@@ -3,7 +3,7 @@ import "./index.css";
 
 import { TbApi } from "react-icons/tb";
 import { IoLogoJavascript } from "react-icons/io5";
-import { FaReact, FaGithub, FaYoutube, FaCss3Alt, FaSass } from "react-icons/fa";
+import { FaReact, FaGithub, FaCss3Alt, FaSass, FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { MdArrowOutward } from "react-icons/md";
 import { SiTypescript, SiSwiper } from "react-icons/si";
@@ -29,16 +29,16 @@ const Project: React.FC = () => {
           </div>
         </div>
         <p className='projects-content__text'>
-          Este projeto está em desenvolvimento.
-          Você pode acompanhar todo o progresso
-          diário pelo Github ou então progresso
-          semanal que será postado no Youtube.
+          Projeto quase finalizado. Ao encontrar no README do projeto, você poderá ver as atividades em andamento e também as futuras atualizações.
         </p>
 
         <div className='projects-content__tecnology-icons'>
           <legend className='projects-content__tecnology'>TECNOLOGIAS UTILIZADAS:</legend>
           <div className='projects-content__icons'>
             <SiTypescript
+              size={35}
+            />
+            <FaNodeJs
               size={35}
             />
             <SiMongodb
@@ -58,34 +58,24 @@ const Project: React.FC = () => {
 
         <div className='projects-content__btn-container'>
           <a className='projects-content__btn-purple-bg'
-            href='https://github.com/JoaoEduardoRRocha/Food-Explorer'
+            href='https://github.com/JoaoEduardoRRocha/Food-Explorer-Frontend'
             target="_blank"
             rel="noreferrer"
           >
             <FaGithub
               size={25}
             />
-            Github
+            Frontend
           </a>
           <a className='projects-content__btn-purple-bg'
-            href='https://food-explorer-opal.vercel.app/'
+            href='https://github.com/JoaoEduardoRRocha/Food-Explorer-Backend'
             target="_blank"
             rel="noreferrer"
           >
-            <MdArrowOutward
+            <FaGithub
               size={25}
             />
-            Deploy
-          </a>
-          <a className='projects-content__btn-purple-bg'
-            href='https://www.youtube.com/channel/UCFBQaJVtTwNIbpqvIoiDfkQ'
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaYoutube
-              size={25}
-            />
-            Youtube
+            Backend
           </a>
         </div>
       </div>
