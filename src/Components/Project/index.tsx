@@ -29,7 +29,7 @@ const Project: React.FC = () => {
           </div>
         </div>
         <p className='projects-content__text'>
-          Projeto quase finalizado. Ao encontrar no README do projeto, você poderá ver as atividades em andamento e também as futuras atualizações.
+          Projeto quase finalizado. Ao acessar o readme.md do projeto, você poderá ver as atividades em andamento e também as futuras atualizações.
         </p>
 
         <div className='projects-content__tecnology-icons'>
