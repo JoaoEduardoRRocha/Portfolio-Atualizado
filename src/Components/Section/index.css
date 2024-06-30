@@ -18,9 +18,16 @@ ul {
   margin-top: 2rem;
   max-width: 42.4rem;
 }
-.section-content__title-education {
+
+.section-content__title-education,
+.section-content__title-experience {
   font-size: 2.4rem;
   margin: 2rem 0;
+}
+
+.section-content__experience__conclusion {
+  margin-top: 1rem;
+  max-width: 50rem;
 }
 
 .section-content__education {

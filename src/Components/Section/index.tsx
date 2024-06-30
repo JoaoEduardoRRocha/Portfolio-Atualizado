@@ -22,6 +22,22 @@ const Section: React.FC = () => {
         </p>
       </div>
 
+      <h3 className="section-content__title-experience">
+        Experiência
+      </h3>
+
+      <div className="section-content__experience">
+        <p className="section-content__education__legend">
+          Desenvolvedor Web pela Canal Corporation
+        </p>
+        <p className="section-content__experience__conclusion">
+          Data: junho/2024 até a atualidade.
+        </p>
+        <p className="section-content__experience__conclusion">
+          Responsável por criar e dar manutenções em automações que envolvem lógica de programação, inteligência artificial, requisições https e integração com API.
+        </p>
+      </div>
+
       <h3 className="section-content__title-education">
         Formação
       </h3>

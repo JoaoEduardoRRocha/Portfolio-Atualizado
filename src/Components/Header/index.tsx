@@ -41,7 +41,7 @@ const Header: React.FC = () => {
           />
         </a>
         <a className='header-content__social-icons-margin'
-          href='https://drive.google.com/file/d/1vUZBDba9TtnSUgfuw1A_I2RYGNbayeJV/view'
+          href='https://drive.google.com/file/d/1sF3_MTtZZ5HuTyukabvIv2xOpzizFDow/view?usp=drive_link'
           target="_blank"
           rel="noreferrer">
           <BsArrowDownSquareFill
